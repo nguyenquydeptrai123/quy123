@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6624994524974623008D8ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624994424974623008D8ACE /* AppDelegate.swift */; };
+		6624994724974623008D8ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624994624974623008D8ACE /* ViewController.swift */; };
+		6624994A24974623008D8ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6624994824974623008D8ACE /* Main.storyboard */; };
+		6624994C24974628008D8ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6624994B24974628008D8ACE /* Assets.xcassets */; };
+		6624994F24974628008D8ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6624994D24974628008D8ACE /* LaunchScreen.storyboard */; };
+		6624995A24974628008D8ACE /* QuanLymonanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6624995924974628008D8ACE /* QuanLymonanTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6624995624974628008D8ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6624993924974623008D8ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6624994024974623008D8ACE;
+			remoteInfo = QuanLymonan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6624994124974623008D8ACE /* QuanLymonan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLymonan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6624994424974623008D8ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6624994624974623008D8ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6624994924974623008D8ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6624994B24974628008D8ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6624994E24974628008D8ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6624995024974628008D8ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6624995524974628008D8ACE /* QuanLymonanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuanLymonanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6624995924974628008D8ACE /* QuanLymonanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuanLymonanTests.swift; sourceTree = "<group>"; };
+		6624995B24974628008D8ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6624993E24974623008D8ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6624995224974628008D8ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6624993824974623008D8ACE = {
+			isa = PBXGroup;
+			children = (
+				6624994324974623008D8ACE /* QuanLymonan */,
+				6624995824974628008D8ACE /* QuanLymonanTests */,
+				6624994224974623008D8ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6624994224974623008D8ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6624994124974623008D8ACE /* QuanLymonan.app */,
+				6624995524974628008D8ACE /* QuanLymonanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6624994324974623008D8ACE /* QuanLymonan */ = {
+			isa = PBXGroup;
+			children = (
+				6624994424974623008D8ACE /* AppDelegate.swift */,
+				6624994624974623008D8ACE /* ViewController.swift */,
+				6624994824974623008D8ACE /* Main.storyboard */,
+				6624994B24974628008D8ACE /* Assets.xcassets */,
+				6624994D24974628008D8ACE /* LaunchScreen.storyboard */,
+				6624995024974628008D8ACE /* Info.plist */,
+			);
+			path = QuanLymonan;
+			sourceTree = "<group>";
+		};
+		6624995824974628008D8ACE /* QuanLymonanTests */ = {
+			isa = PBXGroup;
+			children = (
+				6624995924974628008D8ACE /* QuanLymonanTests.swift */,
+				6624995B24974628008D8ACE /* Info.plist */,
+			);
+			path = QuanLymonanTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6624994024974623008D8ACE /* QuanLymonan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6624995E24974628008D8ACE /* Build configuration list for PBXNativeTarget "QuanLymonan" */;
+			buildPhases = (
+				6624993D24974623008D8ACE /* Sources */,
+				6624993E24974623008D8ACE /* Frameworks */,
+				6624993F24974623008D8ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuanLymonan;
+			productName = QuanLymonan;
+			productReference = 6624994124974623008D8ACE /* QuanLymonan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6624995424974628008D8ACE /* QuanLymonanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6624996124974628008D8ACE /* Build configuration list for PBXNativeTarget "QuanLymonanTests" */;
+			buildPhases = (
+				6624995124974628008D8ACE /* Sources */,
+				6624995224974628008D8ACE /* Frameworks */,
+				6624995324974628008D8ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6624995724974628008D8ACE /* PBXTargetDependency */,
+			);
+			name = QuanLymonanTests;
+			productName = QuanLymonanTests;
+			productReference = 6624995524974628008D8ACE /* QuanLymonanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6624993924974623008D8ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = fit.tdc;
+				TargetAttributes = {
+					6624994024974623008D8ACE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6624995424974628008D8ACE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6624994024974623008D8ACE;
+					};
+				};
+			};
+			buildConfigurationList = 6624993C24974623008D8ACE /* Build configuration list for PBXProject "QuanLymonan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6624993824974623008D8ACE;
+			productRefGroup = 6624994224974623008D8ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6624994024974623008D8ACE /* QuanLymonan */,
+				6624995424974628008D8ACE /* QuanLymonanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6624993F24974623008D8ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6624994F24974628008D8ACE /* LaunchScreen.storyboard in Resources */,
+				6624994C24974628008D8ACE /* Assets.xcassets in Resources */,
+				6624994A24974623008D8ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6624995324974628008D8ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6624993D24974623008D8ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6624994724974623008D8ACE /* ViewController.swift in Sources */,
+				6624994524974623008D8ACE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6624995124974628008D8ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6624995A24974628008D8ACE /* QuanLymonanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6624995724974628008D8ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6624994024974623008D8ACE /* QuanLymonan */;
+			targetProxy = 6624995624974628008D8ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6624994824974623008D8ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6624994924974623008D8ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6624994D24974628008D8ACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6624994E24974628008D8ACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6624995C24974628008D8ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6624995D24974628008D8ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6624995F24974628008D8ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLymonan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLymonan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6624996024974628008D8ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLymonan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLymonan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6624996224974628008D8ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLymonanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLymonanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuanLymonan.app/QuanLymonan";
+			};
+			name = Debug;
+		};
+		6624996324974628008D8ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuanLymonanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tdc.edu.vn.QuanLymonanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuanLymonan.app/QuanLymonan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6624993C24974623008D8ACE /* Build configuration list for PBXProject "QuanLymonan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6624995C24974628008D8ACE /* Debug */,
+				6624995D24974628008D8ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6624995E24974628008D8ACE /* Build configuration list for PBXNativeTarget "QuanLymonan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6624995F24974628008D8ACE /* Debug */,
+				6624996024974628008D8ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6624996124974628008D8ACE /* Build configuration list for PBXNativeTarget "QuanLymonanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6624996224974628008D8ACE /* Debug */,
+				6624996324974628008D8ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6624993924974623008D8ACE /* Project object */;
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuanLymonan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dmc-1r-f1m">
+                                <rect key="frame" x="20" y="64" width="374" height="432"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quy Dep Trai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2d-mz-RX5">
+                                        <rect key="frame" x="131" y="0.0" width="112" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="28" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Quy Dep Trai" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RQD-Od-yFp">
+                                        <rect key="frame" x="0.0" y="34" width="374" height="28"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defautlmage" translatesAutoresizingMaskIntoConstraints="NO" id="se9-Zv-Q3w">
+                                        <rect key="frame" x="27" y="72" width="320" height="320"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="se9-Zv-Q3w" secondAttribute="height" multiplier="1:1" id="I98-Ip-TtJ"/>
+                                            <constraint firstAttribute="width" secondItem="se9-Zv-Q3w" secondAttribute="height" multiplier="1:1" id="Pm7-x3-72D"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="8MD-aL-W5w" appends="YES" id="NMQ-Xs-oN6"/>
+                                        </connections>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XP0-V8-vKk">
+                                        <rect key="frame" x="153.5" y="402" width="67" height="30"/>
+                                        <state key="normal" title="input Quy"/>
+                                        <connections>
+                                            <action selector="gotomap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bhu-LN-7jI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="RQD-Od-yFp" firstAttribute="leading" secondItem="dmc-1r-f1m" secondAttribute="leading" id="6xr-zh-edw"/>
+                                    <constraint firstAttribute="trailing" secondItem="se9-Zv-Q3w" secondAttribute="trailing" constant="27" id="BVI-6S-nRC"/>
+                                    <constraint firstItem="se9-Zv-Q3w" firstAttribute="leading" secondItem="dmc-1r-f1m" secondAttribute="leading" constant="27" id="bfC-mr-263"/>
+                                    <constraint firstAttribute="trailing" secondItem="RQD-Od-yFp" secondAttribute="trailing" id="fm8-wm-DbI"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dmc-1r-f1m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="QVP-CZ-Qgf"/>
+                            <constraint firstItem="dmc-1r-f1m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YW9-L0-YOY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dmc-1r-f1m" secondAttribute="trailing" constant="20" id="hFs-6u-2go"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblHienThi" destination="W2d-mz-RX5" id="4wn-Pk-KZD"/>
+                        <outlet property="txtNhap" destination="RQD-Od-yFp" id="2Yh-oS-gzT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8MD-aL-W5w">
+                    <connections>
+                        <action selector="quydeptrai:" destination="BYZ-38-t0r" id="WDp-am-yag"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="defautlmage" width="166.66667175292969" height="152"/>
+    </resources>
+</document>
